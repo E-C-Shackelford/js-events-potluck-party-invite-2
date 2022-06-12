@@ -12,8 +12,10 @@ darkModeButton.addEventListener("click", function () {
   /*body.classList.add("dark-palette");*/
   if (body.classList.contains("dark-palette")) {
     body.classList.remove("dark-palette");
+    darkModeButton.innerText = "Dark Mode";
   } else {
     body.classList.add("dark-palette");
+    darkModeButton.innerText = "Light Mode";
   }
 });
 
