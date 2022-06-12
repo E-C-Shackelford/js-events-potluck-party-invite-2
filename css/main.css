@@ -1,0 +1,205 @@
+html {
+  color: #222;
+  font-family: "Open Sans";
+  height: 100vh;
+  line-height: 1.4;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: "Indie Flower", cursive;
+  font-size: 16px;
+  font-weight: 600;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+}
+
+/* dark mode palette */
+.dark-palette {
+  background-color: #121212;
+  color: lightgreen;
+  font-weight: 100;
+}
+
+.food {
+  background-image: url("../img/victoria-shes-unsplash.jpg");
+  background-size: cover;
+  height: 600px;
+  width: 35%;
+}
+
+button {
+  font-weight: bold;
+  margin: 0 10px 20px 10px;
+  padding: 5px 10px;
+}
+
+html {
+  color: #222;
+  font-family: "Hind";
+  height: 100vh;
+  line-height: 1.4;
+}
+
+body {
+  align-items: center;
+  display: flex;
+  font-family: "Hind", sans-serif;
+  font-size: 16px;
+  flex-wrap: wrap;
+  height: 100vh;
+  justify-content: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: #968e8e;
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Oswald", Sans-serif;
+  font-size: 2.75rem;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  padding-bottom: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.285;
+  margin: 0.5rem 0;
+  text-align: center;
+}
+
+.fancy {
+  color: tomato;
+  font-family: "Bitter";
+  padding-bottom: 0.5rem;
+}
+
+.fa-instagram {
+  color: #222;
+}
+
+ol li {
+  padding: 1rem;
+}
+
+img {
+  width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 2rem;
+  max-width: 800px;
+  width: 90%;
+}
+
+.food {
+  /* background-image: url('../img/victoria-shes-unsplash.jpg'); */
+  background-size: cover;
+  height: 600px;
+  width: 30%;
+}
+
+.invitation {
+  display: flex;
+  flex-basis: 65%;
+  /*flex-direction: column;*/
+  flex-wrap: wrap;
+  height: 600px;
+  justify-content: center;
+}
+
+.invitation h1 {
+  width: 100%;
+}
+
+.big {
+  font-size: 4.5rem;
+  line-height: 1;
+}
+
+.bigger {
+  font-size: 1.5rem;
+}
+
+.location {
+  align-self: flex-end;
+}
+
+.location p {
+  line-height: 0.5;
+}
+
+.kindabig {
+  font-size: 1.4rem;
+}
+
+footer {
+  color: #968e8e;
+  font-size: 0.8rem;
+  margin-top: 10px;
+  padding: 1rem;
+  text-align: center;
+  width: 100%;
+}
+
+.location,
+.fancy {
+  width: 100%;
+}
+
+@media (min-width: 550px) {
+  .big {
+    font-size: 6.5rem;
+  }
+  h1 {
+    padding: 1.75rem;
+    padding-bottom: 2.5rem;
+  }
+}
+@media (min-width: 850px) {
+  body {
+    font-size: 20px;
+  }
+
+  .big {
+    font-size: 7.5rem;
+  }
+
+  p {
+    margin: 1.25rem 0;
+  }
+
+  .food {
+    width: 50%;
+  }
+
+  .invitation {
+    flex-basis: 45%;
+  }
+
+  h1 {
+    padding: 1rem;
+  }
+}
