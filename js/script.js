@@ -9,10 +9,15 @@ title.addEventListener("mouseover", function () {
 var darkModeButton = document.querySelector(".dark-mode");
 var body = document.querySelector("body");
 darkModeButton.addEventListener("click", function () {
-  body.classList.add("dark-palette");
+  /*body.classList.add("dark-palette");*/
+  if (body.classList.contains("dark-palette")) {
+    body.classList.remove("dark-palette");
+  } else {
+    body.classList.add("dark-palette");
+  }
 });
 
-var lightModeButton = document.querySelector(".light-mode");
+/*var lightModeButton = document.querySelector(".light-mode");
 lightModeButton.addEventListener("click", function () {
   body.classList.remove("dark-palette");
-});
+});*/
